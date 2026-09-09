@@ -1,27 +1,27 @@
-# 🤖 Text Generation & Sentiment Analysis
+#  Text Generation & Sentiment Analysis
 
 An AI-powered web application built with Python and Streamlit that performs **Sentiment Analysis** and **Text Generation** using Hugging Face Transformer models.
 
-## 📌 Project Overview
+## Project Overview
 
 This project combines two Natural Language Processing (NLP) tasks in a single application:
 
-- 😊 Sentiment Analysis
-- ✍️ Text Generation
+-  Sentiment Analysis
+- Text Generation
 
 The user can enter any text into the application. The system analyzes whether the text is **Positive** or **Negative** and also generates additional text based on the given input.
 
-## ✨ Features
+##  Features
 
-- 🤖 AI-powered text processing
-- 😊 Positive/Negative sentiment detection
-- 📊 Sentiment confidence score
-- ✍️ Automatic text generation
-- 🌐 Interactive Streamlit interface
-- 🔥 Hugging Face Transformer models
-- 🐍 Built using Python
+- AI-powered text processing
+-  Positive/Negative sentiment detection
+-  Sentiment confidence score
+-  Automatic text generation
+-  Interactive Streamlit interface
+-  Hugging Face Transformer models
+-  Built using Python
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
@@ -29,7 +29,7 @@ The user can enter any text into the application. The system analyzes whether th
 - PyTorch
 - Torchvision
 
-## 🧠 Models Used
+##  Models Used
 
 ### Sentiment Analysis
 
@@ -47,7 +47,7 @@ The project uses:
 
 This model generates text based on the user's input.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 TextGenerationSentiment/
@@ -56,24 +56,24 @@ TextGenerationSentiment/
 ├── requirements.txt
 ├── README.md
 └── venv/
-                 🤖 TEXT GENERATION & SENTIMENT ANALYSIS
+                 TEXT GENERATION & SENTIMENT ANALYSIS
                               │
                               ▼
                     ┌───────────────────┐
-                    │   👤 User Input   │
+                    │    User Input   │
                     │  Enter your text   │
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
-                    │    🐍 Streamlit   │
+                    │     Streamlit   │
                     │    Web Interface  │
                     └─────────┬─────────┘
                               │
                     ┌─────────┴─────────┐
                     ▼                   ▼
           ┌─────────────────┐   ┌─────────────────┐
-          │ 😊 Sentiment    │   │ ✍️ Text         │
+          │  Sentiment    │   │     Text         │
           │    Analysis     │   │    Generation   │
           └────────┬────────┘   └────────┬────────┘
                    │                     │
@@ -92,6 +92,6 @@ TextGenerationSentiment/
                    └──────────┬──────────┘
                               ▼
                     ┌───────────────────┐
-                    │   🌐 Final Output │
+                    │    Final Output │
                     │  Displayed in UI  │
                     └───────────────────┘
